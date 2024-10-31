@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "create-reactjs-component": "^1.0.7",
+    "generate-react-cli": "^8.4.8"
+  }
+}
