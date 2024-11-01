@@ -11,6 +11,7 @@ module.exports = {
       fontSize:{
         text18:"1.25vw",
       text32:"2.2222vw",
+      text20:"1.3889vw",
         text16:"1.1111vw"
       },gap:{
         gap16:"1.1111vw"

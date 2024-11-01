@@ -3,9 +3,9 @@
 @tailwind utilities;
 
 .Faceface{
-    font-family: "Far.Dastan", serif;
+    font-family: "2  Homa",sans-serif;
     direction: rtl;
 }
 .shadow{
-    box-shadow: 0 1px 8px 4px gainsboro;
+    box-shadow: 1px 1px 6px 4px #e8e6e6;
 }

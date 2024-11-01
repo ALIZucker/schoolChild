@@ -1,7 +1,6 @@
 import './App.css';
 import Home from "./components/Templates/Home";
 import ReactDOM from "react-dom/client";
-import Home2 from "./components/Templates/home2";
 
 function App() {
   return (
