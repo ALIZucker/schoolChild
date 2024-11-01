@@ -15,11 +15,13 @@ module.exports = {
       },gap:{
         gap16:"1.1111vw"
       },backgroundColor:{
-        backCfirst:"#ed9238"
+        backCfirst:"#ed9238",
+        backseced:"#fae5d6"
       },
       textColor:{
         textitemcolor:"rgba(72, 102, 132, 1)",
-        backCfirst:"#ed9238"
+        backCfirst:"#ed9238",
+        textsecenf:"rgba(20, 19, 24, 1)"
       }
     },
   },

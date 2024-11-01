@@ -6,3 +6,6 @@
     font-family: "Far.Dastan", serif;
     direction: rtl;
 }
+.shadow{
+    box-shadow: 0 1px 8px 4px gainsboro;
+}

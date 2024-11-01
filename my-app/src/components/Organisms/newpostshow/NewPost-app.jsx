@@ -20,7 +20,10 @@ function NewPostApp(props) {
                 </div>
             </section>
 
-            <section className="flex flex-row w-full mt-[48px] px-[6.9444vw]">
+            <section className="flex gap-6 flex-row w-full mt-[48px] px-[6.9444vw]">
+                <PostApp></PostApp>
+                <PostApp></PostApp>
+                <PostApp></PostApp>
                 <PostApp></PostApp>
             </section>
         </div>
