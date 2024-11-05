@@ -21,6 +21,7 @@ module.exports = {
       },
       textColor:{
         textitemcolor:"rgba(72, 102, 132, 1)",
+        fooftercolor:"#4C485B",
         backCfirst:"#ed9238",
         textsecenf:"rgba(20, 19, 24, 1)"
       }

@@ -8,9 +8,12 @@ import ImageApp from "../Organisms/imageAdd/Image-app";
 import {newpost,bookPost} from "./Data"
 import img2 from '../../img/Capture.PNG'
 import img3 from '../../img/Group.png'
+import ArticleApp from "../Organisms/articleApp/article-app";
+import Footer from "../Organisms/Footer/footer";
+
 const Home = () => {
     return (
-        <div className="w-[95.4907vw]  ">
+        <div className="w-[95.4907vw] flex  flex-col items-center gap-3 ">
             <HeaderApp></HeaderApp>
             <BannerApp></BannerApp>
             <NewPostApp Titlebpx="جدیدترین آموزش های تحصیلی" posts={newpost}></NewPostApp>
@@ -19,6 +22,8 @@ const Home = () => {
             <NewPostApp Titlebpx="جدیدترین کتاب های آموزشی" posts={bookPost}></NewPostApp>
             <ImageApp imageAddress={img3}></ImageApp>
             <NewPostApp Titlebpx="جدیدترین آموزش های تحصیلی" posts={newpost}></NewPostApp>
+            <ArticleApp></ArticleApp>
+            <Footer></Footer>
         </div>
     );
 };

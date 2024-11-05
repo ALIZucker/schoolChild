@@ -16,7 +16,7 @@ PostApp.propTypes = {
 function PostApp(props) {
     return (
         <div
-            className="shadow items-center flex w-[20.2778vw] flex-col h-[57.1429vh]  rounded-bl-[30px] rounded-br-[30px] rounded-tl-[20px] rounded-tr-[20px]">
+            className="shadow items-center flex w-[20.2778vw] flex-col h-auto  rounded-bl-[30px] rounded-br-[30px] rounded-tl-[20px] rounded-tr-[20px]">
             <img src={props.postadd} className="m-[8px] w-full h-[201px] mt-4"/>
             <section className="flex w-full flex-row-reverse px-4 rounded-[10px] justify-between">
                 <p className="text-backCfirst Faceface text-[10px] px-4 py-1 bg-backseced  font-semibold ">{props.postDaste}</p>
@@ -39,7 +39,7 @@ function PostApp(props) {
 
             </div>
             <img src={img4} className="mt-4 w-[18.0556vw]"/>
-            <div className="flex flex-row mt-2 items-center gap-2 justify-end px-5  w-full ">
+            <div className="flex flex-row mt-2 items-center gap-2 justify-end px-5 py-5   w-full ">
                 <span className="Faceface text-[1.3889vw]">تومان</span><p className="text-[1.6667vw] Faceface font-bold">{props.posprice}</p>
             </div>
         </div>
