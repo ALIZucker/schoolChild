@@ -1,18 +1,23 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
+
   content: [
-    "./src/**/*.{js,jsx,ts,tsx}",
+    './pages/**/*.{js,ts,jsx,tsx,mdx}',
+    './components/**/*.{js,ts,jsx,tsx,mdx}',
+    './app/**/*.{js,ts,jsx,tsx,mdx}',
+    "./node_modules/flowbite/**/*.js"
   ],
   theme: {
     extend: {
+
       padding:{
         pad100:"6.9444vw"
       },
       fontSize:{
         text18:"1.25vw",
-      text32:"2.2222vw",
-      text20:"1.3889vw",
-        text16:"1.1111vw"
+        text32:"2.2222vw",
+        text20:"1.3889vw",
+        text16:"0.863vw"
       },gap:{
         gap16:"1.1111vw"
       },backgroundColor:{
@@ -27,5 +32,7 @@ module.exports = {
       }
     },
   },
-  plugins: [],
+  plugins: [
+    require('flowbite/plugin')
+  ]
 }

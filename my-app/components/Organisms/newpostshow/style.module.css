@@ -1,0 +1,53 @@
+.container {
+    overflow-x: auto;
+    display: flex;
+    width:90%;
+    scroll-behavior:smooth;
+    margin:auto;
+    gap: 2rem;
+    padding-top: 1vh;
+    padding-bottom: 1vh;
+}
+
+/* hide the scrollbar and retain it's functionality */
+.container::-webkit-scrollbar {
+    display: none;
+}
+
+.box {
+    height: 220px;
+    width: 233px;
+    background: red;
+    flex-shrink: 0;
+    margin-right:4px;
+}
+
+
+/* Next & previous buttons */
+.prev, .next {
+    cursor: pointer;
+    position:absolute;
+    width: auto;
+    padding: 20px;
+    color: black;
+    background-color: rgba(0,0,0,0.2);
+    font-weight: bold;
+    font-size: 25px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+    margin-top:19.9048vh;
+}
+
+/* Position the "next button" to the right */
+.next {
+    right:5%;
+    border-radius: 3px 0 0 3px;
+    margin-right:5.5px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+    background-color: rgba(0,0,0,0.8);
+    color: white;
+}

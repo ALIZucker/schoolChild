@@ -1,0 +1,14 @@
+.footerPosh{
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    gap: 24px;
+}
+
+.dot {
+    height: 8px;
+    width: 8px;
+    background-color: darkorange;
+    border-radius: 50%;
+    display: inline-block;
+}

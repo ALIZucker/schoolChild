@@ -1,0 +1,16 @@
+@font-face {
+    font-family: 'Far.Dastan';
+    src: url('FarDastan.eot');
+    src: url('FarDastan.eot?#iefix') format('embedded-opentype'),
+        url('FarDastan.woff2') format('woff2'),
+        url('FarDastan.woff') format('woff'),
+        url('FarDastan.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+.fontface{
+    font-family: 'Far.Dastan';
+    direction: rtl;
+}
+

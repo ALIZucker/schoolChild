@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.Faceface{
+    font-family: "2  Homa",sans-serif;
+    direction: rtl;
+}
+.shadowCustom{
+    box-shadow:0 3px 6px 0 rgba(0,0,0,0.1);
+}
+.borderBascket{
+    border: 1px solid rgba(0,0,0,0.3);
+}
+.flexset{
+    flex: 0 0 auto;
+}
